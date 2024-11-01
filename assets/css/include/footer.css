@@ -1,0 +1,47 @@
+footer {
+  background-color: #333333;
+  height: 100%;
+  margin-top: auto;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+footer table {
+  padding: 10px;
+}
+footer thead tr th {
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+footer thead tr th hr {
+  width: 100%;
+  border: 1px solid white;
+  margin-bottom: 5px;
+  display: block;
+  width: 100%;
+  background-color: #FFC107;
+  margin-top: 10px;
+}
+footer tbody tr td {
+  padding: 5px;
+  text-align: center;
+}
+footer tbody tr td .vinculo img {
+  width: 40px;
+  margin-right: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer tbody tr td a:hover {
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  color: #FFC107;
+}

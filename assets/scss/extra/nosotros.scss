@@ -1,0 +1,26 @@
+main{
+    .info{
+        display: flex;
+        padding: 20px;
+        h1{
+            font-size: 24px;
+            text-align: center;
+            padding: 20px;
+        }p{
+            font-size: 18px;
+            text-align: center;
+            padding: 40px;
+        }
+        
+        @media only screen and (max-width: 710px) {
+            flex-direction: column;
+        }
+    }
+
+    .localizacion{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        
+    }
+}

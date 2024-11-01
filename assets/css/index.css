@@ -1,0 +1,102 @@
+main .novedades {
+  background: -webkit-gradient(linear, left top, right top, from(#3f87a6), color-stop(#f5a882), to(#f69d3c));
+  background: linear-gradient(0.25turn, #3f87a6, #f5a882, #f69d3c);
+  padding: 30px;
+  background-size: 200% 200%;
+  -webkit-animation: cambioColor 4s ease infinite;
+          animation: cambioColor 4s ease infinite;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+@-webkit-keyframes cambioColor {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes cambioColor {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+main .novedades img {
+  width: 30%;
+}
+main .novedades .descripcion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+main .novedades .descripcion h2 {
+  color: darkslategrey;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+main .novedades .descripcion p {
+  text-align: center;
+  margin: 0 50px;
+  font-size: 20px;
+  padding: 30px;
+}
+main .novedades .descripcion .botones {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+main .novedades .descripcion .botones a {
+  font-size: 18px;
+  color: black;
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
+main .marcas .presentacion {
+  padding: 30px;
+}
+main .marcas .presentacion h2 {
+  color: darkslategrey;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 30px;
+}
+main .marcas .presentacion p {
+  text-align: center;
+  font-size: 20px;
+}
+main .marcas .contenido {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+main .marcas .contenido img {
+  width: 20%;
+  margin: 20px;
+}

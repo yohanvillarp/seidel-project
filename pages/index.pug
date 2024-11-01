@@ -3,5 +3,35 @@ html(lang="es")
     head
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        title Document
+        title seidel
+        link(rel="stylesheet" href="/assets/css/main.css")
+        link(rel="stylesheet" href="/assets/css/include/header.css")
+        link(rel="stylesheet" href="/assets/css/include/footer.css")
+        link(rel="stylesheet" href="/assets/css/index.css")
+        
     body 
+
+        include ../include/header.pug
+
+        main 
+            section.novedades 
+                    img(src="/assets/img/home/adidas.png")
+                    .descripcion
+                        h2 Nuevas RedMain-Premium
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nemo explicabo quasi animi quibusdam. Laboriosam, maxime hic voluptas assumenda odit nisi cumque cupiditate doloribus laborum temporibus aspernatur ducimus voluptatem blanditiis.
+                        .botones 
+                            a(href="#") Quiero más información!
+                            a(href="#") Ver más de este tipo!
+            
+            section.marcas
+                .presentacion   
+                    h2 CONOZCA LO QUE OFRECEMOS
+                    p Zapatillas de marca en una sola tienda!
+                .contenido
+                    img(src="../assets/img/marcas/adidas.png" alt="adidas")
+                    img(src="../assets/img/marcas/nike.png" alt="nike")
+                    img(src="../assets/img/marcas/puma.png" alt="puma")
+                    img(src="../assets/img/marcas/reebok.png" alt="rebook")
+                    img(src="../assets/img/marcas/new-balance.svg" alt="new-balance")
+        
+        include ../include/footer.pug
